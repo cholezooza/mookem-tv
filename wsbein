@@ -1,0 +1,81 @@
+{
+"name": "Bein Sports",
+"author": "Cholezooza",
+"image": "https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/Beinsportgp.png",
+"url": "https://pastebin.com/raw/aCNdj5Yv",
+"info": "", "stations": 
+[ 
+{
+"name":"Bein Sports 1",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD1.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4814.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 2",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD2.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4814.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 3",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD3.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4812.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 4",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD4.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4811.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 5",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD5.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/48140m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 6",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD6.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4809.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 7",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD7.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4808.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 8",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD8.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4807.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 9",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD9.png",
+"url":"http://ok2.se:8000/live/alphie123/alphie123/4806.m3u8",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 10",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/HD10.png",
+"url":"https://tinyurl.com/livestack/14998",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 11",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/SportsHD11.png",
+"url":"https://tinyurl.com/livestack/15000",
+"playInNatPlayer": "true"
+},
+{
+"name":"Bein Sports 12",
+"image":"https://raw.githubusercontent.com/cholezooza/Logo_beINSPORTS/main/SportsHD12.png",
+"url":"https://tinyurl.com/livestack/15001",
+"playInNatPlayer": "true"
+},
+]
+}
