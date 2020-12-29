@@ -1,0 +1,26 @@
+<div id="vOverlay" style="position:relative; width:600px; height:300px; z-index:2;"></div>
+<video style="position:relative; top:-300px; z-index:1;width:600px;height:340px;" width="600" height="409" id=videoPlayer controls="controls">
+<source src="https://cdn6.goprimetime.info//feed//ch5hd//index.m3u8" type="application/x-mpegURL">
+</video>
+
+<script>
+    var v = document.getElementById('videoPlayer');
+    var vv = document.getElementById('vOverlay');
+    <!-- Auto play, Half volume -->
+    v.play()
+    v.volume = 0.5;
+    v.firstChild.nodeValue = "Play";
+
+    <!-- Play, Pause -->
+    vv.addEventListener('click',function(e){
+        if (!v.paused) {
+            console.log("pause playback");
+            v.pause();
+            v.firstChild.nodeValue = 'Pause';
+        } else {
+            console.log("start playback")
+            v.play();
+            v.firstChild.nodeValue = 'Play';
+        }
+      });
+</script>
