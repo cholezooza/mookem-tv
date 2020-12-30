@@ -1,43 +1,51 @@
-<!DOCTYPE html> 
-<html> 
-<body> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HLS converter and player demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="shim/console.time.js"></script>
 
-<div style="text-align:center"> 
-  <button onclick="playPause()">Play/Pause</button> 
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
-  <video id="video1" width="90%">
-    <source src="https://cdn6.goprimetime.info//feed//ch5hd//index.m3u8" type="application/x-mpegURL">
-    Your browser does not support HTML video.
-  </video>
-</div> 
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23392234 = new Ya.Metrika({id:23392234, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23392234" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+</head>
+<body class="loading" style="text-align: center">
+	<a href="https://cdn6.goprimetime.info/feed/ch3hd/index.m3u8"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
-<script> 
-var myVideo = document.getElementById("video1"); 
+	<h1>HTTP Live Streaming<br />JavaScript converter and player demo</h1>
 
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
-} 
+	<main>
+		<div id="video-streaming"><canvas id="canvas"></canvas></div>
+		<br />
+		<input class="button orange" type="button" id="play" value="► Play" />
+		<input class="button black" type="button" id="pause" value="◼ Pause" />
+	</main>
 
-function makeBig() { 
-    myVideo.width = 560; 
-} 
+	<img id="loading-indicator" src="assets/ajax-loader.gif" />
 
-function makeSmall() { 
-    myVideo.width = 320; 
-} 
+	<div>
+		<img src="assets/chrome.png" />
+		<img id="img-center" src="assets/firefox.png" />
+		<img src="assets/ie10.png" />
+	</div>
 
-function makeNormal() { 
-    myVideo.width = 420; 
-} 
-</script> 
+	<h3>Works best in Chrome (stable branch), having lags when switching videos but still working in latest Firefox and IE10+.</h3>
 
-<p>Video courtesy of <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+	<p id="comments">Please note that demo uses 3rd-party <a href="http://www.mediamotiononline.com/">HLS demo source</a> and service <a href="http://www.corsproxy.com/">http://www.corsproxy.com/</a> for proxying it with needed Cross-Origin-Request headers, so it may be unstable.</p>
 
-</body> 
+	<script src="browser.js" data-canvas="canvas" data-hls="http://sjc-uhls-proxy01.ustream.tv/watch/playlist.m3u8?appType=103&appVersion=3&conn=wifi&cid=17074538&stream=3&connectionId=oldurl-7e6c811ebc2f9cf8d21e6c0bbfed317170d14528&group=iphone">
+		// UI initialization when first video chunk is converted
+
+		document.body.classList.remove('loading');
+
+		var converter = this;
+
+		['play', 'pause'].forEach(function (action) {
+			document.getElementById(action).addEventListener('click', function () {
+				document.body.classList.toggle('paused');
+				converter.currentVideo[action]();
+			});
+		});
+	</script>
+</body>
 </html>
