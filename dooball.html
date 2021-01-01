@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset=utf-8 />
-    <title>Englist Premier 1</title>
-      
-      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+<header class="header">
+			<div>
+				<h1 id="alert">
+					Premier 1</h1>
+			</div>
+			<p style="text-align: center;">
+			      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
       <script src="https://unpkg.com/video.js/dist/video.js"></script>
       <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-       
     </head>
+    
     <body>
       <video id="EPL1" width="720" height="400" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" 
       data-setup='{}'>
         <source src="https://doofootball.livestream-cdn.com/iptv/epl-1.stream/chunks.m3u8" type="application/x-mpegURL">
       </video>
+      </p>
       
     <script>
     var player = videojs('my_video_1');
