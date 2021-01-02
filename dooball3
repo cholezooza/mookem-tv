@@ -1,0 +1,13 @@
+<header class="header">
+			<div>
+				<h1 id="alert">
+					True EPL 1</h1>
+			</div>
+			<p style="text-align: center;"><object width='880' height='540'>
+<param name='epl1' value='https://doofootball.livestream-cdn.com/iptv/epl-1.stream/chunks.m3u8'></param>
+<param name='wmode' value='transparent'></param>
+<embed src='https://doofootball.livestream-cdn.com/iptv/epl-1.stream/chunks.m3u8' type='application/x-mpegURL' wmode='transparent' width='880' height='540'>
+</header>
+</embed>
+</object>
+                        </p>
