@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <header class="header">
+			<div>
+				<h1>Thairath TV</h1>
+			</div>
+			<p style="text-align: center;">
+			      <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+      <script src="https://unpkg.com/video.js/dist/video.js"></script>
+      <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+    </head>
+    
+    <body>
+      <video id="Thairath" width="100%" height="360px;" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" 
+      data-setup='{}'>
+        <source src="http://160.119.77.116:8081/iptv/hd-thairath.stream/playlist.m3u8" type="application/x-mpegURL">
+      </video>
+      </p>
+      
+    <script>
+    var player = videojs('Thairath');
+    player.play();
+    </script>
+      
+    </body>
+    </html>
