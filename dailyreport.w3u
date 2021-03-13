@@ -36,17 +36,31 @@
 "embed": true
  },
 {
-"name": "Prdmier HD 1",
+"name": "Premier HD 1",
 "image": "https://www.andaman888th.com/wp-content/uploads/2019/08/tpf1.jpg",
 "imageScale": "centerCrop",
 "url": "https://junctv.tk/premier-hd1.html",
 "embed": true
  },
 {
-"name": "Prdmier HD 2",
+"name": "Premier HD 2",
 "image": "https://www.andaman888th.com/wp-content/uploads/2019/08/tpf2.jpg",
 "imageScale": "centerCrop",
 "url": "https://junctv.tk/premier-hd2.html",
+"embed": true
+ },
+ {
+"name": "Mono29",
+"image": "https://i.postimg.cc/gkD498F2/hd-mono.png",
+"imageScale": "centerCrop",
+"url": "https://tv.trueid.net/embed/mono29?autoplay=1",
+"embed": true
+ },
+  {
+"name": "PPTV",
+"image": "https://i.postimg.cc/m2bNSkzf/hd-pptv.png",
+"imageScale": "centerCrop",
+"url": "https://tv.trueid.net/embed/pptv-hd?autoplay=1",
 "embed": true
  },
 ]
