@@ -1,1 +1,25 @@
-#report
+{
+"name": "Daily  Sport Report",
+"author": "@WHOAMI Creator",
+"image": "https://dynamic.brandcrowd.com/asset/logo/7aefe30d-5aa5-42d9-9a87-e30b2aa9ad41/logo?v=4",
+"imageScale": "centerCrop",
+"url": "https://tv.adminaof.online/dailyreport.w3u",
+"stations": [
+
+
+{
+"name": "Dooball66",  
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2zHbqNEaTnleOrsijaRyv_n9WSNBAYLTHlg&usqp=CAU",
+"imageScale": "centerCrop",
+"url": "https://tv.adminaof.online/dooball_index.html",
+"embed": true
+},
+{
+"name": "77 UP",
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-hxrVHo-gvJki5-f79PEFS3QzZ2VcH8QAFHXD9Mng6lrUllGLjOwdj_I&s=10",
+"imageScale": "centerCrop",
+"url": "https://super77up.com/live.html",
+"embed": true
+ },
+]
+}
