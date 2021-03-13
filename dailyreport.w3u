@@ -114,9 +114,21 @@
 "imageScale": "centerCrop",
 "url": "https://kingball.tk/chmcothd.html"
  },
+    {
+"name": "CH 3 HD",
+"image": "https://img-cdn.we-play.tv/posters/ch3-hd-poster1602704948.jpeg",
+"imageScale": "centerCrop",
+"url": "https://kingball.tk/ch3hd.html"
+ },
+    {
+"name": "CH 7 HD",
+"image": "https://img-cdn.we-play.tv/posters/ch7-hd-poster1602704980.jpeg",
+"imageScale": "centerCrop",
+"url": "https://kingball.tk/ch7hd.html"
+ },
   {
 "name": "PPTV",
-"image": "https://www.andaman888th.com/wp-content/uploads/2019/01/pptv.jpg",
+"image": "https://img-cdn.we-play.tv/posters/pptv-hd-poster1602705047.jpeg",
 "imageScale": "centerCrop",
 "url": "https://www.andaman888th.com/ดูบอลออนไลน์//pptvhd"
  },
